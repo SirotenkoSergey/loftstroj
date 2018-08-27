@@ -1,0 +1,139 @@
+* {
+    font-family: Tahoma, Arial;
+}
+h1 {
+    margin-bottom: 0px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 22px; 
+}
+.img-responsive {
+    max-width: 100%;
+}
+body {
+    background: #e5e5e5;
+    margin: 0px;
+}
+.header-top {
+    padding-top: 15px;
+}
+.header-top .fa {
+    font-size: 48px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+.price-list {
+    background: #fff;
+    padding: 20px;
+    margin: 35px auto;
+}
+.price-list-item {
+    position: relative;
+    margin-bottom: 15px;
+}
+.price-list-item p {
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    right: 15px;
+    color: #fff;
+    padding: 10px;
+    margin: 0px;
+    background: #67a0ba;
+    font-size: 13px;
+}
+.brands {
+    background: #fff;
+    padding: 30px;
+    margin: 55px auto;
+
+}
+.lists {
+    margin: 30px auto;
+    background: #fff;
+    padding: 35px 40px;
+}
+footer {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    background: #103a24;
+    color: #fff;
+    box-shadow: 0px 7px 27px #111;
+}
+footer ul {
+	padding-left: 15px;
+	list-style: square;
+}
+
+.carousel-item {
+    height: 450px;
+}
+.gradient {
+    background: #67a0ba;
+    color: #fff;
+    /*background : linear-gradient (top, rgba (98,125,77,1) 0%, rgba (31,59,8,1) 100%);
+    background : -moz-linear-gradient (top, rgba (98,125,77,1) 0%, rgba (31,59,8,1) 100%);
+    background : -webkit-gradient (левый верхний, левый нижний, цвет-стоп (0%, rgba (98,125,77,1)), color-stop (100%, rgba (31,59,8,1)));
+    background : -webkit-linear-gradient (top, rgba (98,125,77,1) 0%, rgba (31,59,8,1) 100%);
+    background : -o-linear-gradient (top, rgba (98,125,77,1) 0%, rgba (31,59,8,1) 100%);
+    background : -ms-linear-gradient (top, rgba (98,125,77,1) 0%, rgba (31,59,8,1) 100%);*/
+}
+.gradient a {
+    color: #fff;
+}
+/*====MODAL WINDOW====*/
+.modal-window-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 200;
+    background: rgba(255,255,255,.67);
+    display: none;
+}
+.modal-window-wrapper > .modal-window-inner {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    background: #67a0ba;
+    padding: 25px;
+}
+.modal-window-wrapper > .modal-window-inner p {
+    color: #fff;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+.modal-window-close {
+    position: absolute;
+    background: transparent;
+    border: none;
+    color: #fff;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.modal-window-wrapper > .modal-window-inner label {
+    width: 100%;
+}
+.modal-window-wrapper > .modal-window-inner input[type='text'],
+.modal-window-wrapper > .modal-window-inner input[type='email'] {
+    border: none;
+    border-radius: 5px;
+    display: block;
+    padding: 5px 15px;
+    width: 100%;
+    font-size: 18px;
+}
+.modal-window-wrapper > .modal-window-inner .fb-footer {
+    margin-top: 15px;
+}
